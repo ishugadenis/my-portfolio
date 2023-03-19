@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: #1f272f;
+    color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1f272f, #161c21, #2bd883);
+    align-items: flex-end;
+    position: fixed;
+    z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+    font-size: large;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+    margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.myTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2bd883;
+}
+
+.projectCard {
+    margin: 20px;
+    border-style: solid;
+    border-color: #fff;
+    height: 200px;
+    width: 300px;
+    border-width: 1px;
+}
+
+.home {
+    background: linear-gradient(to top right, #1f272f, #161c21, #2bd883);
+}
+
+h5 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+}
+
+.gitImage {
+    color: white;
+    /* backgroun
+    d-color: white;
+    opacity: 0.5; */
+}
+
+a {
+    text-decoration-line: none;
+}
+
+image-container {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    opacity: 70%;
+}
+
+.gradient-overlay {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    z-index: 1;
 }
