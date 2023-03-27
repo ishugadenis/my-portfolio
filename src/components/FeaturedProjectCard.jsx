@@ -12,7 +12,6 @@ import {
 } from "@mui/material";
 
 import { ArrowForward } from "@mui/icons-material";
-import shadows from "@mui/material/styles/shadows";
 
 const FeaturedProjectCard = ({project}) => {
   const {name, image, id} = project;
